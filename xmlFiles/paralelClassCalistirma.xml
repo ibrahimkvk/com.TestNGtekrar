@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Classlari Calistirma" parallel="methods" thread-count="1">
+    <test name="belirli classlari paralel calistirna 1">
+        <classes>
+            <class name="tests.day015_softassert.C02_ZeroWebApp_Exercise"></class>
+            <class name="tests.day014_testNGFramework.C05_SoftAssert"></class>
+
+        </classes>
+    </test>
+    <test name="belirli classlari paralel calistrma 2">
+        <classes>
+
+        <class name="tests.day016_smoke_test.C02_NegatifLoginTest"></class>
+        <class name="tests.day014_testNGFramework.C03_NutellaTesti"></class>
+
+        </classes>
+    </test>
+
+</suite>

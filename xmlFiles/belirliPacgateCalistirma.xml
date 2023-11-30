@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="belirli paketleri calistirma">
+    <test name="istenen paketleri calistirma">
+        <packages>
+            <package name="tests.day014_testNGFramework"></package>
+        </packages>
+    </test>
+</suite>
